@@ -19,7 +19,7 @@ void initTimer(unsigned int timer, unsigned int preScaler, unsigned int count)
 
 
     // For the specified timer, configure the timer to repeat once it elapses.
-
+    Timer32_setCount(timer, count);
 }
 
 // TODO: Write a function that indicates whether Timer0 has expired.
